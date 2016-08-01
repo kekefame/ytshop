@@ -1,0 +1,3161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>银泰网首页</title>
+	<script type="text/javascript" src="./js/function.js"></script>
+	<script type="text/javascript" src="./js/11.js"></script>
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/index.js"></script>
+	<link rel="stylesheet" href="./css/index.css">
+	
+</head>
+<body>
+
+
+<div id="doc">
+<!-- 顶部到目录导航 -->
+<div id="hd">
+		<!-- 最顶部导航 -->
+		<div id="hdtop">
+			<div class="yt-wrap top-size cf">
+				<!-- 左半部分 -->
+				<ul class="top-entry">
+					<li>
+						<a class="collect" href="#">
+							<s></s>
+							<span>银泰首页</span>
+						</a>
+					</li>
+					<li class="separator"></li>
+					<li class="log-yt-wechat">
+					<!-- 鼠标经过加 鼠标经过加yt-wechat-->
+						<div class="log-wechat j_wechat top-ytlog">
+							<a href="" class="wechat">
+								<s></s>
+								微信
+								<b></b>
+								<span class="blank"></span>
+							</a>
+							<div class="yt-seller-wechat seller" style="display:none;">
+								<img src="./img/wechat.png" alt="加载失败">
+							</div>
+						</div>
+					</li>
+					<li class="separator"></li>
+					<li class="log-yt-phone">
+						<div class="log-phone j_phone top-ytlog">
+							<a href="" class="yt-phone-link">
+								<s></s>
+								<span>手机银泰</span>
+								<b></b>
+								<span class="blank"></span>
+							</a>
+							<div class="yt-seller-phone seller" style="display:none">
+								<a href="#" class="gophone">
+									<img src="./img/appphone.png" alt="">
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<!-- 右半部分 -->
+				<ul class="top-logs">
+					<li class="log-user">
+						<span>Hi,欢迎来到银泰网！</span>
+						<a href="#" class="login">登陆</a>
+						<a href="#" class="reg">注册</a>
+					</li>
+					<li class="separator"></li>
+					<li>
+						<a href="#" class="log-link">我的订单</a>
+					</li>
+					<li class="separator"></li>
+					<li class="log-yt-home">
+						<div class="j_myhome top-ytlog">
+							<a href="#" class="log-link yt-home">
+								<span>我的银泰</span>
+								<b></b>
+								<span class="blank"></span>
+							</a>
+							<div class="yt-seller-myhome seller" style="display:none">
+								<div class="yt-home-link">
+									<p><a href="#">我的收藏</a></p>
+									<p><a href="#">我的余额</a></p>
+									<p><a href="#">我的银元</a></p>
+									<p><a href="#">我的银泰卡</a></p>
+									<p><a href="#">我的优费劵</a></p>
+									<p><a href="#">我的积分</a></p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="separator"></li>
+					<li>
+						<a href="#" class="log-link">银泰卡</a>
+					</li>
+					<li class="separator"></li>
+					<li><a href="#" class="log-link">帮助中心</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 顶部链接图片 -->
+		<div id="hdadvert">
+			<div class="top-banner">
+				<a href="#"></a>
+			</div>
+		</div>
+		<!-- logo加搜索框 -->
+		<div id="hdmain">
+			<div class="yt-wrap top-main">
+				<h1 class="ilogo">
+					<a href="http://www.yintai.com">银泰网</a>
+				</h1>
+				<div class="itype">
+					<div>
+						<div class="line"></div>
+						<a href="#" style="background:url(./img/11/5d2463bc-1322-4691-8cf0-ed03477a81c5.gif)"></a>
+					</div>
+				</div>
+				<div id="j-minicart" class="icart cur-icart">
+					<a href="#" class="minishop j-minishop">
+						<span>
+							购物袋
+							<strong id="j-cartcount">0</strong>
+							件
+						</span>
+						<b></b>
+					</a>
+					<div class="yt-bags j-shopcart">
+						<div class="yt-bags-nothing">
+							购物袋中还没有商品，赶快选购吧！
+						</div>
+					</div>
+				</div>
+				<div class="isearch">
+					<div class="searchbox">
+						<input type="text" value="男装品牌促购物赢大奖" class="place-holder">
+						<button id="j-searchbtn" title="搜索">搜索</button>
+						<input type="hidden" value="愚人节 不骗你 奢品4.1折" class="default-arrt">
+						<div id="keywordlist" class="keywords-list" style="display:none;"></div>
+					</div>
+					<div id="hotkeyword" class="hotkeyword">
+						<a href="#">BURBERRY</a>
+						<a href="#">尚新奢品</a>
+						<a href="#" class="yt_hotword">名品腰带</a>
+						<a href="#" class="yt_hotword">拉杆箱</a>
+						<a href="#">外套/夹克</a>
+						<a href="#" class="yt_hotword">童鞋聚惠</a>
+						<a href="#">装柜服饰1折起</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 目录加导航 -->
+		<div id="hdmenu">
+			<div id="y_navlist" class="yt-wrap top-menu">
+				<div id="y_navlist_menu_care" class="menu-cate default-expand-menu">
+					<a href="#" id="menu-cate-title" class="menu-cate-title">全部分类</a>
+					<div class="menu-cate-all-out">
+					<!-- 鼠标经过加class=menucate -->
+						<dl class="dl-1">
+							<dt>
+								<a href="#" class="category">
+									<em></em>名品
+								</a>
+								<i></i>
+								<div>
+									<a href="" class="hot">惠买奢</a>
+									<span></span>
+								</div>
+							</dt>
+							<dd style="display:none;top:0px;" id="yui_3_13_0_1_14">
+								<div class="submenu cf">
+									<div class="sorts-list">
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">裙装</a>
+												<a href="#">衬衫</a>
+												<a href="#">裤装</a>
+												<a href="#">T恤</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">鞋靴</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">女士单鞋</a>
+												<a href="#">女士低/中跟鞋</a>
+												<a href="#" class="yt_hotword">男鞋</a>
+												<a href="#">高跟鞋</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">手提斜跨包</a>
+												<a href="#">单肩包</a>
+												<a href="#">钱夹</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">钱包</a>
+												<a href="#">单肩包</a>
+												<a href="#">手提包</a>
+												<a href="#">手拿包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">海淘</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">保税</a>
+												<a href="#" class="yt_hotword">零食</a>
+												<a href="#">美妆</a>
+												<a href="#">婴童</a>
+												<a href="#">女包</a>
+												<a href="#">腰带</a>
+												<a href="#">服装鞋靴</a>
+												<a href="#" class="yt_hotword">直邮</a>
+												<a href="#">鞋靴</a>
+												<a href="#">配饰</a>
+												<a href="#">女装</a>
+												<a href="#" class="yt_hotword">箱包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat sorts-none cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+									</div>
+									<div class="sorts-brand">
+										<h3>品牌</h3>
+										<p>
+											<a href="#">BURBERRY</a>
+											<a href="#">FERRAGAMO</a>
+											<a href="#">GUCCI COACH</a>
+											<a href="#">ARMANI JEANS</a>
+											<a href="#">DIESEL VERSACE</a>
+											<a href="#">MAXCO</a>
+											<a href="#">FRED FERRY</a>
+											<a href="#">DELINE</a>
+											<a href="#">SPORTMAX</a>
+											<a href="#">MAX MARA</a>
+											<a href="#">MICHAEL KORS</a>
+											<a href="#">ZEGNA FENDI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">BALLY</a>
+										</p>
+									</div>
+								</div>
+							</dd>
+						</dl>
+						<dl class="dl-2">
+							<dt>
+								<a href="#" class="category">
+									<em></em>女装
+								</a>
+								<i></i>
+								<div>
+									<a href="" class="hot">春夏上新</a>
+									<span></span>
+								</div>
+							</dt>
+							<dd style="display:none;" id="yui_3_13_0_1_14" class="height-limit">
+								<div class="submenu cf">
+									<div class="sorts-list">
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">裙装</a>
+												<a href="#">衬衫</a>
+												<a href="#">裤装</a>
+												<a href="#">T恤</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">鞋靴</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">女士单鞋</a>
+												<a href="#">女士低/中跟鞋</a>
+												<a href="#" class="yt_hotword">男鞋</a>
+												<a href="#">高跟鞋</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">手提斜跨包</a>
+												<a href="#">单肩包</a>
+												<a href="#">钱夹</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">钱包</a>
+												<a href="#">单肩包</a>
+												<a href="#">手提包</a>
+												<a href="#">手拿包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">海淘</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">保税</a>
+												<a href="#" class="yt_hotword">零食</a>
+												<a href="#">美妆</a>
+												<a href="#">婴童</a>
+												<a href="#">女包</a>
+												<a href="#">腰带</a>
+												<a href="#">服装鞋靴</a>
+												<a href="#" class="yt_hotword">直邮</a>
+												<a href="#">鞋靴</a>
+												<a href="#">配饰</a>
+												<a href="#">女装</a>
+												<a href="#" class="yt_hotword">箱包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat sorts-none cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+									</div>
+									<div class="sorts-brand">
+										<h3>品牌</h3>
+										<p>
+											<a href="#">BURBERRY</a>
+											<a href="#">FERRAGAMO</a>
+											<a href="#">GUCCI COACH</a>
+											<a href="#">ARMANI JEANS</a>
+											<a href="#">DIESEL VERSACE</a>
+											<a href="#">MAXCO</a>
+											<a href="#">FRED FERRY</a>
+											<a href="#">DELINE</a>
+											<a href="#">SPORTMAX</a>
+											<a href="#">MAX MARA</a>
+											<a href="#">MICHAEL KORS</a>
+											<a href="#">ZEGNA FENDI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">BALLY</a>
+										</p>
+									</div>
+								</div>
+							</dd>
+						</dl>
+						<dl class="dl-3">
+							<dt>
+								<a href="#" class="category">
+									<em></em>男装
+								</a>
+								<i></i>
+								<div>
+									<a href="" class="hot">型男单品</a>
+									<span></span>
+								</div>
+							</dt>
+							<dd style="display:none;" id="yui_3_13_0_1_14" class="height-limit">
+								<div class="submenu cf">
+									<div class="sorts-list">
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">裙装</a>
+												<a href="#">衬衫</a>
+												<a href="#">裤装</a>
+												<a href="#">T恤</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">鞋靴</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">女士单鞋</a>
+												<a href="#">女士低/中跟鞋</a>
+												<a href="#" class="yt_hotword">男鞋</a>
+												<a href="#">高跟鞋</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">手提斜跨包</a>
+												<a href="#">单肩包</a>
+												<a href="#">钱夹</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">钱包</a>
+												<a href="#">单肩包</a>
+												<a href="#">手提包</a>
+												<a href="#">手拿包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">海淘</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">保税</a>
+												<a href="#" class="yt_hotword">零食</a>
+												<a href="#">美妆</a>
+												<a href="#">婴童</a>
+												<a href="#">女包</a>
+												<a href="#">腰带</a>
+												<a href="#">服装鞋靴</a>
+												<a href="#" class="yt_hotword">直邮</a>
+												<a href="#">鞋靴</a>
+												<a href="#">配饰</a>
+												<a href="#">女装</a>
+												<a href="#" class="yt_hotword">箱包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat sorts-none cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+									</div>
+									<div class="sorts-brand">
+										<h3>品牌</h3>
+										<p>
+											<a href="#">BURBERRY</a>
+											<a href="#">FERRAGAMO</a>
+											<a href="#">GUCCI COACH</a>
+											<a href="#">ARMANI JEANS</a>
+											<a href="#">DIESEL VERSACE</a>
+											<a href="#">MAXCO</a>
+											<a href="#">FRED FERRY</a>
+											<a href="#">DELINE</a>
+											<a href="#">SPORTMAX</a>
+											<a href="#">MAX MARA</a>
+											<a href="#">MICHAEL KORS</a>
+											<a href="#">ZEGNA FENDI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">BALLY</a>
+										</p>
+									</div>
+								</div>
+							</dd>
+						</dl>
+						<dl class="dl-4">
+							<dt>
+								<a href="#" class="category">
+									<em></em>鞋靴
+								</a>
+								<i></i>
+								<div>
+									<a href="" class="hot">时尚鞋品</a>
+									<span></span>
+								</div>
+							</dt>
+							<dd style="display:none;" id="yui_3_13_0_1_14" class="height-limit">
+								<div class="submenu cf">
+									<div class="sorts-list">
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">裙装</a>
+												<a href="#">衬衫</a>
+												<a href="#">裤装</a>
+												<a href="#">T恤</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">鞋靴</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">女士单鞋</a>
+												<a href="#">女士低/中跟鞋</a>
+												<a href="#" class="yt_hotword">男鞋</a>
+												<a href="#">高跟鞋</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">手提斜跨包</a>
+												<a href="#">单肩包</a>
+												<a href="#">钱夹</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">钱包</a>
+												<a href="#">单肩包</a>
+												<a href="#">手提包</a>
+												<a href="#">手拿包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">海淘</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">保税</a>
+												<a href="#" class="yt_hotword">零食</a>
+												<a href="#">美妆</a>
+												<a href="#">婴童</a>
+												<a href="#">女包</a>
+												<a href="#">腰带</a>
+												<a href="#">服装鞋靴</a>
+												<a href="#" class="yt_hotword">直邮</a>
+												<a href="#">鞋靴</a>
+												<a href="#">配饰</a>
+												<a href="#">女装</a>
+												<a href="#" class="yt_hotword">箱包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat sorts-none cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+									</div>
+									<div class="sorts-brand">
+										<h3>品牌</h3>
+										<p>
+											<a href="#">BURBERRY</a>
+											<a href="#">FERRAGAMO</a>
+											<a href="#">GUCCI COACH</a>
+											<a href="#">ARMANI JEANS</a>
+											<a href="#">DIESEL VERSACE</a>
+											<a href="#">MAXCO</a>
+											<a href="#">FRED FERRY</a>
+											<a href="#">DELINE</a>
+											<a href="#">SPORTMAX</a>
+											<a href="#">MAX MARA</a>
+											<a href="#">MICHAEL KORS</a>
+											<a href="#">ZEGNA FENDI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">BALLY</a>
+										</p>
+									</div>
+								</div>
+							</dd>
+						</dl>
+						<dl class="dl-5">
+							<dt>
+								<a href="#" class="category">
+									<em></em>美妆
+								</a>
+								<i></i>
+								<div>
+									<a href="" class="hot">爽肤水</a>
+									<span></span>
+								</div>
+							</dt>
+							<dd style="display:none;" id="yui_3_13_0_1_14" class="height-limit">
+								<div class="submenu cf">
+									<div class="sorts-list">
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">裙装</a>
+												<a href="#">衬衫</a>
+												<a href="#">裤装</a>
+												<a href="#">T恤</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">鞋靴</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">女士单鞋</a>
+												<a href="#">女士低/中跟鞋</a>
+												<a href="#" class="yt_hotword">男鞋</a>
+												<a href="#">高跟鞋</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">手提斜跨包</a>
+												<a href="#">单肩包</a>
+												<a href="#">钱夹</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">钱包</a>
+												<a href="#">单肩包</a>
+												<a href="#">手提包</a>
+												<a href="#">手拿包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">海淘</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">保税</a>
+												<a href="#" class="yt_hotword">零食</a>
+												<a href="#">美妆</a>
+												<a href="#">婴童</a>
+												<a href="#">女包</a>
+												<a href="#">腰带</a>
+												<a href="#">服装鞋靴</a>
+												<a href="#" class="yt_hotword">直邮</a>
+												<a href="#">鞋靴</a>
+												<a href="#">配饰</a>
+												<a href="#">女装</a>
+												<a href="#" class="yt_hotword">箱包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat sorts-none cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+									</div>
+									<div class="sorts-brand">
+										<h3>品牌</h3>
+										<p>
+											<a href="#">BURBERRY</a>
+											<a href="#">FERRAGAMO</a>
+											<a href="#">GUCCI COACH</a>
+											<a href="#">ARMANI JEANS</a>
+											<a href="#">DIESEL VERSACE</a>
+											<a href="#">MAXCO</a>
+											<a href="#">FRED FERRY</a>
+											<a href="#">DELINE</a>
+											<a href="#">SPORTMAX</a>
+											<a href="#">MAX MARA</a>
+											<a href="#">MICHAEL KORS</a>
+											<a href="#">ZEGNA FENDI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">BALLY</a>
+										</p>
+									</div>
+								</div>
+							</dd>
+						</dl>
+						<dl class="dl-6">
+							<dt>
+								<a href="#" class="category">
+									<em></em>箱包
+								</a>
+								<i></i>
+								<div>
+									<a href="" class="hot">女神单肩</a>
+									<span></span>
+								</div>
+							</dt>
+							<dd style="display:none;" id="yui_3_13_0_1_14">
+								<div class="submenu cf">
+									<div class="sorts-list">
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">裙装</a>
+												<a href="#">衬衫</a>
+												<a href="#">裤装</a>
+												<a href="#">T恤</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">鞋靴</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">女士单鞋</a>
+												<a href="#">女士低/中跟鞋</a>
+												<a href="#" class="yt_hotword">男鞋</a>
+												<a href="#">高跟鞋</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">手提斜跨包</a>
+												<a href="#">单肩包</a>
+												<a href="#">钱夹</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">钱包</a>
+												<a href="#">单肩包</a>
+												<a href="#">手提包</a>
+												<a href="#">手拿包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">海淘</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">保税</a>
+												<a href="#" class="yt_hotword">零食</a>
+												<a href="#">美妆</a>
+												<a href="#">婴童</a>
+												<a href="#">女包</a>
+												<a href="#">腰带</a>
+												<a href="#">服装鞋靴</a>
+												<a href="#" class="yt_hotword">直邮</a>
+												<a href="#">鞋靴</a>
+												<a href="#">配饰</a>
+												<a href="#">女装</a>
+												<a href="#" class="yt_hotword">箱包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat sorts-none cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+									</div>
+									<div class="sorts-brand">
+										<h3>品牌</h3>
+										<p>
+											<a href="#">BURBERRY</a>
+											<a href="#">FERRAGAMO</a>
+											<a href="#">GUCCI COACH</a>
+											<a href="#">ARMANI JEANS</a>
+											<a href="#">DIESEL VERSACE</a>
+											<a href="#">MAXCO</a>
+											<a href="#">FRED FERRY</a>
+											<a href="#">DELINE</a>
+											<a href="#">SPORTMAX</a>
+											<a href="#">MAX MARA</a>
+											<a href="#">MICHAEL KORS</a>
+											<a href="#">ZEGNA FENDI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">BALLY</a>
+										</p>
+									</div>
+								</div>
+							</dd>
+						</dl>
+						<dl class="dl-7">
+							<dt>
+								<a href="#" class="category">
+									<em></em>运动
+								</a>
+								<i></i>
+								<div>
+									<a href="" class="hot">外套夹克</a>
+									<span></span>
+								</div>
+							</dt>
+							<dd style="display:none;" id="yui_3_13_0_1_14">
+								<div class="submenu cf">
+									<div class="sorts-list">
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">裙装</a>
+												<a href="#">衬衫</a>
+												<a href="#">裤装</a>
+												<a href="#">T恤</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">鞋靴</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">女士单鞋</a>
+												<a href="#">女士低/中跟鞋</a>
+												<a href="#" class="yt_hotword">男鞋</a>
+												<a href="#">高跟鞋</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">手提斜跨包</a>
+												<a href="#">单肩包</a>
+												<a href="#">钱夹</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">钱包</a>
+												<a href="#">单肩包</a>
+												<a href="#">手提包</a>
+												<a href="#">手拿包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">海淘</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">保税</a>
+												<a href="#" class="yt_hotword">零食</a>
+												<a href="#">美妆</a>
+												<a href="#">婴童</a>
+												<a href="#">女包</a>
+												<a href="#">腰带</a>
+												<a href="#">服装鞋靴</a>
+												<a href="#" class="yt_hotword">直邮</a>
+												<a href="#">鞋靴</a>
+												<a href="#">配饰</a>
+												<a href="#">女装</a>
+												<a href="#" class="yt_hotword">箱包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat sorts-none cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+									</div>
+									<div class="sorts-brand">
+										<h3>品牌</h3>
+										<p>
+											<a href="#">BURBERRY</a>
+											<a href="#">FERRAGAMO</a>
+											<a href="#">GUCCI COACH</a>
+											<a href="#">ARMANI JEANS</a>
+											<a href="#">DIESEL VERSACE</a>
+											<a href="#">MAXCO</a>
+											<a href="#">FRED FERRY</a>
+											<a href="#">DELINE</a>
+											<a href="#">SPORTMAX</a>
+											<a href="#">MAX MARA</a>
+											<a href="#">MICHAEL KORS</a>
+											<a href="#">ZEGNA FENDI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">BALLY</a>
+										</p>
+									</div>
+								</div>
+							</dd>
+						</dl>
+						<dl class="dl-8">
+							<dt>
+								<a href="#" class="category">
+									<em></em>配饰
+								</a>
+								<i></i>
+								<div>
+									<a href="" class="hot">黄金饰品</a>
+									<span></span>
+								</div>
+							</dt>
+							<dd style="display:none;" id="yui_3_13_0_1_14" class="height-limit">
+								<div class="submenu cf">
+									<div class="sorts-list">
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">裙装</a>
+												<a href="#">衬衫</a>
+												<a href="#">裤装</a>
+												<a href="#">T恤</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">鞋靴</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">女士单鞋</a>
+												<a href="#">女士低/中跟鞋</a>
+												<a href="#" class="yt_hotword">男鞋</a>
+												<a href="#">高跟鞋</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">手提斜跨包</a>
+												<a href="#">单肩包</a>
+												<a href="#">钱夹</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">钱包</a>
+												<a href="#">单肩包</a>
+												<a href="#">手提包</a>
+												<a href="#">手拿包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">海淘</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">保税</a>
+												<a href="#" class="yt_hotword">零食</a>
+												<a href="#">美妆</a>
+												<a href="#">婴童</a>
+												<a href="#">女包</a>
+												<a href="#">腰带</a>
+												<a href="#">服装鞋靴</a>
+												<a href="#" class="yt_hotword">直邮</a>
+												<a href="#">鞋靴</a>
+												<a href="#">配饰</a>
+												<a href="#">女装</a>
+												<a href="#" class="yt_hotword">箱包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat sorts-none cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+									</div>
+									<div class="sorts-brand">
+										<h3>品牌</h3>
+										<p>
+											<a href="#">BURBERRY</a>
+											<a href="#">FERRAGAMO</a>
+											<a href="#">GUCCI COACH</a>
+											<a href="#">ARMANI JEANS</a>
+											<a href="#">DIESEL VERSACE</a>
+											<a href="#">MAXCO</a>
+											<a href="#">FRED FERRY</a>
+											<a href="#">DELINE</a>
+											<a href="#">SPORTMAX</a>
+											<a href="#">MAX MARA</a>
+											<a href="#">MICHAEL KORS</a>
+											<a href="#">ZEGNA FENDI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">BALLY</a>
+										</p>
+									</div>
+								</div>
+							</dd>
+						</dl>
+						<dl class="dl-9">
+							<dt>
+								<a href="#" class="category">
+									<em></em>婴童
+								</a>
+								<i></i>
+								<div>
+									<a href="" class="hot">童装</a>
+									<span></span>
+								</div>
+							</dt>
+							<dd style="display:none;" id="yui_3_13_0_1_14" class="height-limit">
+								<div class="submenu cf">
+									<div class="sorts-list">
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">裙装</a>
+												<a href="#">衬衫</a>
+												<a href="#">裤装</a>
+												<a href="#">T恤</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">鞋靴</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">女士单鞋</a>
+												<a href="#">女士低/中跟鞋</a>
+												<a href="#" class="yt_hotword">男鞋</a>
+												<a href="#">高跟鞋</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">手提斜跨包</a>
+												<a href="#">单肩包</a>
+												<a href="#">钱夹</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">钱包</a>
+												<a href="#">单肩包</a>
+												<a href="#">手提包</a>
+												<a href="#">手拿包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">海淘</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">保税</a>
+												<a href="#" class="yt_hotword">零食</a>
+												<a href="#">美妆</a>
+												<a href="#">婴童</a>
+												<a href="#">女包</a>
+												<a href="#">腰带</a>
+												<a href="#">服装鞋靴</a>
+												<a href="#" class="yt_hotword">直邮</a>
+												<a href="#">鞋靴</a>
+												<a href="#">配饰</a>
+												<a href="#">女装</a>
+												<a href="#" class="yt_hotword">箱包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat sorts-none cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+									</div>
+									<div class="sorts-brand">
+										<h3>品牌</h3>
+										<p>
+											<a href="#">BURBERRY</a>
+											<a href="#">FERRAGAMO</a>
+											<a href="#">GUCCI COACH</a>
+											<a href="#">ARMANI JEANS</a>
+											<a href="#">DIESEL VERSACE</a>
+											<a href="#">MAXCO</a>
+											<a href="#">FRED FERRY</a>
+											<a href="#">DELINE</a>
+											<a href="#">SPORTMAX</a>
+											<a href="#">MAX MARA</a>
+											<a href="#">MICHAEL KORS</a>
+											<a href="#">ZEGNA FENDI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">BALLY</a>
+										</p>
+									</div>
+								</div>
+							</dd>
+						</dl>
+					   <dl class="dl-10">
+					   		<dt>
+					   			<a href="#" class="category">
+									<em></em>家居
+								</a>
+								<i></i>
+								<div>
+									<a href="" class="hot">四件套</a>
+									<span></span>
+								</div>
+					   		</dt>
+					   		<dd style="display:none;" id="yui_3_13_0_1_14">
+					   			<div class="submenu cf">
+									<div class="sorts-list">
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">裙装</a>
+												<a href="#">衬衫</a>
+												<a href="#">裤装</a>
+												<a href="#">T恤</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">鞋靴</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">女士单鞋</a>
+												<a href="#">女士低/中跟鞋</a>
+												<a href="#" class="yt_hotword">男鞋</a>
+												<a href="#">高跟鞋</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">女包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">手提斜跨包</a>
+												<a href="#">单肩包</a>
+												<a href="#">钱夹</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">男包</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">钱包</a>
+												<a href="#">单肩包</a>
+												<a href="#">手提包</a>
+												<a href="#">手拿包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat cf">
+											<h3><a href="#">海淘</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">保税</a>
+												<a href="#" class="yt_hotword">零食</a>
+												<a href="#">美妆</a>
+												<a href="#">婴童</a>
+												<a href="#">女包</a>
+												<a href="#">腰带</a>
+												<a href="#">服装鞋靴</a>
+												<a href="#" class="yt_hotword">直邮</a>
+												<a href="#">鞋靴</a>
+												<a href="#">配饰</a>
+												<a href="#">女装</a>
+												<a href="#" class="yt_hotword">箱包</a>
+											</p>
+										</div>
+										<div class="sorts-repeat sorts-none cf">
+											<h3><a href="#">男装</a></h3>
+											<p>
+												<a href="#" class="yt_hotword">新品</a>
+												<a href="#" class="yt_hotword">衬衫</a>
+												<a href="#" class="yt_hotword">T恤</a>
+												<a href="#">裤装</a>
+												<a href="#">卫衣</a>
+											</p>
+										</div>
+									</div>
+									<div class="sorts-brand">
+										<h3>品牌</h3>
+										<p>
+											<a href="#">BURBERRY</a>
+											<a href="#">FERRAGAMO</a>
+											<a href="#">GUCCI COACH</a>
+											<a href="#">ARMANI JEANS</a>
+											<a href="#">DIESEL VERSACE</a>
+											<a href="#">MAXCO</a>
+											<a href="#">FRED FERRY</a>
+											<a href="#">DELINE</a>
+											<a href="#">SPORTMAX</a>
+											<a href="#">MAX MARA</a>
+											<a href="#">MICHAEL KORS</a>
+											<a href="#">ZEGNA FENDI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">EMPORIO ARMANI</a>
+											<a href="#">BALLY</a>
+										</p>
+									</div>
+								</div>
+					   		</dd>
+					   </dl>
+					</div>
+				</div>
+				<ul class="nav-hr" style="padding-left:20px;">
+					<li class="horiNav-new">   <a href="#"><span>银泰百货</span></a></li>
+					<li class="horiNav-mp">    <a href="#"><span>名品馆</span></a></li>
+					<li class="horiNav-temai"> <a href="#"><span>特卖</span></a></li>
+					<li class="horiNav-haitao"><a href="#"><span>海涛馆</span></a></li>
+					<li class="horiNav-huawei"><a href="#"><span>荣耀旗舰店</span></a></li>
+				</ul>
+				<div class="nav-rr">
+						<a href="#">积分商城</a>|
+						<a href="#">全部品牌</a>
+				</div>
+			</div>
+		</div>
+</div>
+<!-- 网页主体 -->
+<div id="bd">
+		<!-- banner部分 -->
+		<div id="tab_nav" style="overflow:hidden;">
+			<div class="top_shadow"></div>
+			<!-- 图片轮播部分 -->
+			<div class="pannels">
+				<div class="tab_pannel banner1">
+					<div class="content">
+						<a href="#">
+							<img src="./img/banner/bn1.jpg" alt="正在加载请耐心等待">
+						</a>
+					</div>
+				</div>
+				<div class="tab_pannel banner2">
+					<div class="content">
+						<a href="#">
+							<img src="./img/banner/bn2.jpg" alt="正在加载请耐心等待">
+						</a>
+					</div>
+				</div>
+				<div class="tab_pannel banner3">
+					<div class="content">
+						<a href="#">
+							<img src="./img/banner/bn3.jpg" alt="正在加载请耐心等待">
+						</a>
+					</div>
+				</div>
+				<div class="tab_pannel banner4">
+					<div class="content">
+						<a href="#">
+							<img src="./img/banner/bn4.jpg" alt="正在加载请耐心等待">
+						</a>
+					</div>
+				</div>
+				<div class="tab_pannel banner5">
+					<div class="content">
+						<a href="#">
+							<img src="./img/banner/bn5.jpg" alt="正在加载请耐心等待">
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- 左右按钮 -->
+			<div class="btn">
+				<a class="eva-switchable-prev" style="opacity:0.7"></a>
+				<a class="eva-switchable-next" style="opacity:0.7"></a>
+			</div>
+			<!-- 轮播底部按钮 -->
+			<div class="nav_trriger_warp">
+				<ul class="nav_trriger">
+					<li class="eva-switchable-active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+
+		</div>
+		<!-- banner右侧浮动广告 -->
+		<div class="focus_pic yt-wrap">
+			<div class="f_pic">
+				<a href="#">
+					<!-- <img src="./img/left.jpg" alt=""> -->
+				</a>
+			</div>
+		</div>
+		<!-- 超值特卖，爆款好货，手机专享 -->
+		<div class="brand_contentRec yt-wrap">
+			<div class="brand_content">
+				<ul class="eva-switchable-triggers cf">
+					<li class="eva-switchable-active cntal">
+						<a href="javascript:;" class="last_w font_yahei">超值特卖</a>
+					</li>
+					<li class="cntal">
+						<a href="javascript:;" class="last_w font_yahei">爆款好货</a>
+					</li>
+					<li class="cntal">
+						<a href="javascript:;" class="last_w font_yahei">手机专享</a>
+					</li>
+				</ul>
+				<!-- 左下图片和动画线框 -->
+				<div class="eva-switchable-panels">
+					<!-- 左下图片和动画线框   1 -->
+					<div class="pr_list_t cf" style="display:block">
+						<div class="border_animation">
+							<div class="border_top"></div>
+							<div class="border_right"></div>
+							<div class="border_bottom"></div>
+							<div class="border_left"></div>
+							<div id="">
+								<a href="#">
+									<img src="./img/98fdc725-7183-40f5-b033-cc14df3b0725.jpg" alt="正在加载请耐心等待">
+								</a>
+							</div>
+						</div>
+						<div class="border_animation">
+							<div class="border_top"></div>
+							<div class="border_right"></div>
+							<div class="border_bottom"></div>
+							<div class="border_left"></div>
+							<div id="">
+								<a href="#">
+									<img src="./img/747a3384-cc94-4415-8e1e-05214762dde8.jpg" alt="正在加载请耐心等待">
+								</a>
+							</div>
+						</div>
+						<div class="border_animation">
+							<div class="border_top"></div>
+							<div class="border_right"></div>
+							<div class="border_bottom"></div>
+							<div class="border_left"></div>
+							<div id="">
+								<a href="#">
+									<img src="./img/20282c88-c6e6-4f68-bf1c-16dfc631bcb1.jpg" alt="正在加载请耐心等待">
+								</a>
+							</div>
+						</div>
+						<div class="border_animation">
+							<div class="border_top"></div>
+							<div class="border_right"></div>
+							<div class="border_bottom"></div>
+							<div class="border_left"></div>
+							<div id="">
+								<a href="#">
+									<img src="./img/ffba98ea-3653-42d1-91ff-96149118d487.jpg" alt="正在加载请耐心等待">
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- 左下图片和动画线框   2 -->
+					<div class="pr_list_t" style="display:none">
+						<ul class="pro_list cf">
+							<li>
+								<div class="border_animation">
+								<div class="border_top"></div>
+								<div class="border_right"></div>
+								<div class="border_bottom"></div>
+								<div class="border_left"></div>
+
+								<div id="" >
+									<div class="yt_pr_img">
+										<a href="#">
+											<img src="./img/55133.jpg" alt="正在加载请耐心等待">
+										</a>
+									</div>
+									<p>
+										<a href="#" class="">
+											外交官他系列典雅风范磨砂飞机轮拉杆箱
+										</a>
+									</p>
+									<p>
+										<strong class="yt_pr_c font_yahei">
+											银泰价￥599
+										</strong>
+										<span class="yt_pr_s font_yahei">
+											参考价:￥3398
+										</span>
+									</p>
+								
+								</div>
+							</li>
+							<li>
+							<div class="border_animation">
+							<div class="border_top"></div>
+							<div class="border_right"></div>
+							<div class="border_bottom"></div>
+							<div class="border_left"></div>
+							<div id="" >
+								<div class="yt_pr_img">
+								<a href="#">
+									<img src="./img/40400.jpg" alt="正在加载请耐心等待">
+								</a>
+								</div>
+								<p>
+									<a href="#" class="">
+										lecoqsportif乐卡克法国公鸡女士
+									</a>
+								</p>
+								<p>
+									<strong class="yt_pr_c font_yahei">
+										银泰价￥161
+									</strong>
+									<span class="yt_pr_s font_yahei">
+										参考价:￥269
+									</span>
+								</p>
+								
+							</div>
+							</li>
+							<li>
+							<div class="border_animation">
+							<div class="border_top"></div>
+							<div class="border_right"></div>
+							<div class="border_bottom"></div>
+							<div class="border_left"></div>
+							
+							<div id="" >
+									<div class="yt_pr_img">
+										<a href="#">
+											<img src="./img/60740.jpg" alt="正在加载请耐心等待">
+										</a>
+									</div>
+									<p>
+										<a href="#" class="">
+											KENZO paris深蓝色纯棉时尚休闲
+										</a>
+									</p>
+									<p>
+										<strong class="yt_pr_c font_yahei">
+											银泰价￥840
+										</strong>
+										<span class="yt_pr_s font_yahei">
+											参考价:￥1200
+										</span>
+									</p>
+								
+								</div>
+							</li>
+							<li>
+							<div class="border_animation">
+							<div class="border_top"></div>
+							<div class="border_right"></div>
+							<div class="border_bottom"></div>
+							<div class="border_left"></div>
+							
+							<div id="" >
+									<div class="yt_pr_img">
+										<a href="#">
+											<img src="./img/41251.jpg" alt="正在加载请耐心等待">
+										</a>
+									</div>
+									<p>
+										<a href="#" class="">
+											playboy花花公子80D 360无缝
+										</a>
+									</p>
+									<p>
+										<strong class="yt_pr_c font_yahei">
+											银泰价￥59
+										</strong>
+										<span class="yt_pr_s font_yahei">
+											参考价:￥198
+										</span>
+									</p>
+								
+								</div>
+							</li>
+						</ul>
+						
+					</div>
+					<!-- 左下图片和动画线框   3 -->
+					<div class="pr_list_t" style="display:none">
+						<div class="border_animation">
+							<div class="border_top"></div>
+							<div class="border_right"></div>
+							<div class="border_bottom"></div>
+							<div class="border_left"></div>
+							<div id="">
+								<a href="#">
+									<img src="./img/caba7778-ce2a-4232-b232-54c15dcfc44a.jpg" alt="正在加载请耐心等待">
+								</a>
+							</div>
+						</div>
+						<div class="border_animation">
+							<div class="border_top"></div>
+							<div class="border_right"></div>
+							<div class="border_bottom"></div>
+							<div class="border_left"></div>
+							<div id="">
+								<a href="#">
+									<img src="./img/dc9dcb99-d488-469e-951e-83c03ed059ae.jpg" alt="正在加载请耐心等待">
+								</a>
+							</div>
+						</div>
+						<div class="border_animation">
+							<div class="border_top"></div>
+							<div class="border_right"></div>
+							<div class="border_bottom"></div>
+							<div class="border_left"></div>
+							<div id="">
+								<a href="#">
+									<img src="./img/0c8f1cf4-f75e-43b1-92c1-f98a28e11185.jpg" alt="正在加载请耐心等待">
+								</a>
+							</div>
+						</div>
+						<div class="border_animation">
+							<div class="border_top"></div>
+							<div class="border_right"></div>
+							<div class="border_bottom"></div>
+							<div class="border_left"></div>
+							<div id="">
+								<a href="#">
+									<img src="./img/7a898063-3347-4491-8af3-48cea51411fd.jpg" alt="正在加载请耐心等待">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 右图片 -->
+			<div class="yt_notice">
+				<div class="noctice-tips"></div>
+				<div class="advert_section">
+					<div>
+						<img src="./img/cfb50fdd-e86d-4850-b781-5f0401b0e28c.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 链接图片 -->
+		<div class="yt-wrap" style="margin-top:30px">
+			<a href="#" style="diplay:block;min-height: 80px;font-size:0px">
+				<img src="./img/f736a8c7-d42d-45ad-8766-a9a743ab7d37.jpg" alt="" >
+			</a>
+		</div>
+		<!-- 银泰百货专柜同款 -->
+		<div class="yt-wrap yt_floor_zgtk">
+			<div class="floor_title">
+				<a href="#">
+					<h6>专柜同款</h6>
+				</a>
+			</div>
+			<div class="zgtk-content">
+				<div class="floor_ad floor_banner_slide">
+					<div class="floor_b_pannels">
+						<img src="./img/22fa1a2a-d656-4bbc-bb58-9ed0ca75c1a2.jpg" alt="">
+					</div>
+				</div>
+				<div class="floor_tk_content">
+					<div class="tk_nav">
+						<ul class="eva-switchable-triggers">
+							<li class="eva-switchable-active trgger">
+								<a href="#">热名品牌</a>
+								<span></span>
+							</li>
+							<li class="trgger">
+								<a href="#">本周推荐</a>
+								<span></span>
+							</li>
+						</ul>
+					</div>
+					<div class="eva-switchable-panels">
+						<!-- 选项卡一 -->
+						<div class="pro_list_rm proll" style="display:black">
+							<a href="#" class="pro_list_rm01">
+								<img src="./img/cc4f9404-64d1-4e4c-a6b8-cfcf8f682b06.jpg" alt="">
+							</a>
+							<a href="#" class="pro_list_rm02">
+								<img src="./img/23a53bed-3869-4d25-afd3-6ede4c6d25f6.jpg" alt="">
+							</a>
+							<a href="#" class="pro_list_rm03">
+								<img src="./img/02aa9456-4fe7-4534-aea2-bea2c946d764.jpg" alt="">
+							</a>
+							<a href="#" class="pro_list_rm04">
+								<img src="./img/8b6c7d9c-b7b3-4983-b7dd-95b4ea2d096e.jpg" alt="">
+							</a>
+							<a href="#" class="pro_list_rm05">
+								<img src="./img/5d3405a9-7c6e-4f91-bd22-a3846ddeaf12.jpg" alt="">
+							</a>
+							<a href="#" class="pro_list_rm06">
+								<img src="./img/6d8ad121-8956-4f32-8fd4-5c9d688f3e46.jpg" alt="">
+							</a>
+						</div>
+						<!-- 选项卡二 -->
+						<div class="pro_list_xp proll" style="display:none">
+							<ul class="xp-pro">
+								<li class="border_animation">
+									<div class="border_top"></div>
+									<div class="border_right"></div>
+									<div class="border_bottom"></div>
+									<div class="border_left"></div>
+									<div class="pro_list_xp_img">
+										<a href="#">
+											<img src="./img/yintai_8bd6dd86-2aef-41b2-8026-98dc3181b05d.jpg" alt="">
+										</a>
+									</div>
+									<div class="pro_list_xp_content">
+										<p class="pro_list_xp_title">
+											<a href="#">银泰百货武林店集货茵曼牛仔包臀裙</a>
+										</p>
+										<p>
+											<span class="yintai-price">
+												￥159
+											</span>
+											<span class="shichang-price">
+												参考价：￥209
+											</span>
+										</p>
+									</div>
+								</li>
+								<li class="border_animation">
+									<div class="border_top"></div>
+									<div class="border_right"></div>
+									<div class="border_bottom"></div>
+									<div class="border_left"></div>
+									<div class="pro_list_xp_img">
+										<a href="#">
+											<img src="./img/yintai_beaebbac-5838-41c6-91e8-0877b32d6a96.jpg" alt="">
+										</a>
+									</div>
+									<div class="pro_list_xp_content">
+										<p class="pro_list_xp_title">
+											<a href="#">银泰武林店集货唯颂</a>
+										</p>
+										<p>
+											<span class="yintai-price">
+												￥569
+											</span>
+											<span class="shichang-price">
+												参考价：￥1138
+											</span>
+										</p>
+									</div>
+								</li>
+								<li class="border_animation">
+									<div class="border_top"></div>
+									<div class="border_right"></div>
+									<div class="border_bottom"></div>
+									<div class="border_left"></div>
+									<div class="pro_list_xp_img">
+										<a href="#">
+											<img src="./img/10034088277_1.jpg" alt="">
+										</a>
+									</div>
+									<div class="pro_list_xp_content">
+										<p class="pro_list_xp_title">
+											<a href="#">银泰武林店lily's shoescase女</a>
+										</p>
+										<p>
+											<span class="yintai-price">
+												￥549
+											</span>
+											<span class="shichang-price">
+												参考价：￥1099
+											</span>
+										</p>
+									</div>
+								</li>
+								<li class="border_animation">
+									<div class="border_top"></div>
+									<div class="border_right"></div>
+									<div class="border_bottom"></div>
+									<div class="border_left"></div>
+									<div class="pro_list_xp_img">
+										<a href="#">
+											<img src="./img/10034962683_1.jpg" alt="">
+										</a>
+									</div>
+									<div class="pro_list_xp_content">
+										<p class="pro_list_xp_title">
+											<a href="#">银泰百货温州世货店潮我看手袋</a>
+										</p>
+										<p>
+											<span class="yintai-price">
+												￥299
+											</span>
+											<span class="shichang-price">
+												参考价：￥870
+											</span>
+										</p>
+									</div>
+								</li>
+								<li class="border_animation">
+									<div class="border_top"></div>
+									<div class="border_right"></div>
+									<div class="border_bottom"></div>
+									<div class="border_left"></div>
+									<div class="pro_list_xp_img">
+										<a href="#">
+											<img src="./img/10012076812_1.jpg" alt="">
+										</a>
+									</div>
+									<div class="pro_list_xp_content">
+										<p class="pro_list_xp_title">
+											<a href="#">银泰百货武林店悦木之源均衡泡沫</a>
+										</p>
+										<p>
+											<span class="yintai-price">
+												￥220
+											</span>
+											<span class="shichang-price">
+												参考价：￥220
+											</span>
+										</p>
+									</div>
+								</li>
+								<li class="border_animation">
+									<div class="border_top"></div>
+									<div class="border_right"></div>
+									<div class="border_bottom"></div>
+									<div class="border_left"></div>
+									<div class="pro_list_xp_img">
+										<a href="#">
+											<img src="./img/10033079336_1.jpg" alt="">
+										</a>
+									</div>
+									<div class="pro_list_xp_content">
+										<p class="pro_list_xp_title">
+											<a href="#">银泰百货武林店倩碧舒柔润手护理甲</a>
+										</p>
+										<p>
+											<span class="yintai-price">
+												￥55
+											</span>
+											<span class="shichang-price">
+												参考价：￥55
+											</span>
+										</p>
+									</div>
+								</li>
+								<li class="border_animation">
+									<div class="border_top"></div>
+									<div class="border_right"></div>
+									<div class="border_bottom"></div>
+									<div class="border_left"></div>
+									<div class="pro_list_xp_img">
+										<a href="#">
+											<img src="./img/yintai_de5c2c61-550b-4986-8f6c-4459cbde2570.jpg" alt="">
+										</a>
+									</div>
+									<div class="pro_list_xp_content">
+										<p class="pro_list_xp_title">
+											<a href="#">银泰百货武林店本色棉2016夏 短袖</a>
+										</p>
+										<p>
+											<span class="yintai-price">
+												￥59
+											</span>
+											<span class="shichang-price">
+												参考价：￥119
+											</span>
+										</p>
+									</div>
+								</li>
+								<li class="border_animation">
+									<div class="border_top"></div>
+									<div class="border_right"></div>
+									<div class="border_bottom"></div>
+									<div class="border_left"></div>
+									<div class="pro_list_xp_img">
+										<a href="#">
+											<img src="./img/10034819875_1.jpg" alt="">
+										</a>
+									</div>
+									<div class="pro_list_xp_content">
+										<p class="pro_list_xp_title">
+											<a href="#">温岭银泰城面膜小屋自然美肌薰衣草</a>
+										</p>
+										<p>
+											<span class="yintai-price">
+												￥158
+											</span>
+											<span class="shichang-price">
+												参考价：￥158
+											</span>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 链接图片 -->
+		<div class="yt-wrap" style="margin-top:30px">
+			<a href="#">
+				<img src="./img/a723d3c9-6e06-4385-96a4-902b11d5d8a5.jpg" alt="">
+			</a>
+		</div>
+		<!-- 时尚名品 -->
+		<div class="yt-wrap yt_floor_mp yt_floor_item">
+			<div class="floor_title">
+				<a href="#">
+					<h6>时尚名品</h6>
+				</a>
+			</div>
+			<div class="floor_nav">
+				<ul class="floor_nav_category">
+					<li><a href="">T恤</a></li>
+					<li><a href="">裙装</a></li>
+					<li><a href="">太阳镜</a></li>
+					<li><a href="">男士衬衫</a></li>
+					<li><a href="">针织衫</a></li>
+					<li><a href="">腰带</a></li>
+					<li><a href="">女士大包</a></li>
+					<li><a href="">钱包</a></li>
+					<li><a href="">女士单鞋</a></li>
+					<li><a href="">男士大包</a></li>
+					<li><a href="">男鞋</a></li>
+					<li><a href="">卫衣</a></li>
+				</ul>
+				<div class="floorbarndSlide">
+					<div class="scroller">
+						<div class="eva-switchable-panels">
+							<!-- 商家logo标志轮播 1-->
+							<!-- <div id=" " style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa1.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa2.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa3.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa4.jpg" alt=""></a>
+							</div> -->
+							<!-- 商家logo标志轮播 2-->
+							<div style="display:blok;float:left;">
+								<a href="#"><img src="./img/logoa21.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa22.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa23.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa24.jpg" alt=""></a>
+							</div>
+							<!-- 商家logo标志轮播 3-->
+							<div style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa31.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa32a.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa33.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa34.jpg" alt=""></a>
+							</div>
+					
+						</div>
+					</div>
+					<a href="" class="eva-switchable-prev"></a>
+					<a href="" class="eva-switchable-next"></a>
+				</div>
+			</div>
+			<div class="floor_slide">
+				<!-- 轮播图 -->
+				<div class="floor_banner_slide">
+					<div class="floor_b_pannels">
+						<div class="eva-switchable-panels" style="overflow:visible;position: absolute;width:1480px;left:0px">
+							<a href="javascript:;" style="display:block;"><img src="./img/7542b173-873d-4a36-83bc-a41f6891f2b6.jpg" alt=""></a>
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/0479d2f0-90ca-4357-8ce6-0a04f122cca9.jpg" alt=""></a>
+						</div>
+					</div>
+					<ul class="floor_slide_trigger">
+						<li class="eva-switchable-active"></li>
+						<li></li>
+					</ul>
+					<a href="javascript:;" style="left:0" class="eva-switchable-prev eva-switchable-disable-btn"></a>
+					<a href="javascript:;" style="right:0" class="eva-switchable-next eva-switchable-disable-btn1"></a>
+				</div>
+				<!-- ******************************* -->
+			</div>
+			<div class="floor_banner">
+				<div class="floor_banner_main">
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/aa1.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/aa2.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/aa3.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/aa4.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 潮流女装 -->
+		<div class="yt-wrap yt_floor_wz yt_floor_item">
+			<div class="floor_title">
+				<a href="#">
+					<h6></h6>
+				</a>
+			</div>
+			<div class="floor_nav">
+				<ul class="floor_nav_category">
+					<li><a href="">卫衣</a></li>
+					<li><a href="">风衣</a></li>
+					<li><a href="">针织衫</a></li>
+					<li><a href="">小西装</a></li>
+					<li><a href="">连衣裙</a></li>
+					<li><a href="">衬衫</a></li>
+					<li><a href="">休闲裤</a></li>
+					<li><a href="">牛仔裤</a></li>
+					<li><a href="">半身裙</a></li>
+					<li><a href="">T恤</a></li>
+					<li><a href="">雪纺</a></li>
+					<li><a href="">大衣</a></li>
+				</ul>
+				<div class="floorbarndSlide">
+					<div class="scroller">
+						<div class="eva-switchable-panels">
+							<!-- 商家logo标志轮播 1-->
+							<!-- <div id=" " style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa1.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa2.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa3.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa4.jpg" alt=""></a>
+							</div> -->
+							<!-- 商家logo标志轮播 2-->
+							<div style="display:blok;float:left;">
+								<a href="#"><img src="./img/logoa21.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa22.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa23.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa24.jpg" alt=""></a>
+							</div>
+							<!-- 商家logo标志轮播 3-->
+							<div style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa31.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa32a.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa33.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa34.jpg" alt=""></a>
+							</div>
+					
+						</div>
+					</div>
+					<a href="" class="eva-switchable-prev"></a>
+					<a href="" class="eva-switchable-next"></a>
+				</div>
+			</div>
+			<div class="floor_slide">
+				<!-- 轮播图 -->
+				<div class="floor_banner_slide">
+					<div class="floor_b_pannels">
+						<div class="eva-switchable-panels" style="overflow:visible;position: absolute;width: 1560px;left:0px">
+							<a href="" style="display:block;float:left"><img src="./img/clnzbanner.jpg" alt=""></a>
+						<!-- 	<a href="" style="display:block;float:left"><img src="./img/0479d2f0-90ca-4357-8ce6-0a04f122cca9.jpg" alt=""></a> -->
+						</div>
+					</div>
+<!-- 					<ul class="floor_slide_trigger">
+						<li class="eva-switchable-active"></li>
+						<li></li>
+					</ul>
+					<a href="" style="left:0" class="eva-switchable-prev eva-switchable-disable-btn"></a>
+					<a href="" style="right:0" class="eva-switchable-next eva-switchable-disable-btn1"></a> -->
+				</div>
+				<!-- ******************************* -->
+			</div>
+			<div class="floor_banner">
+				<div class="floor_banner_main">
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/clnz1.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/clnz2.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/clnz3.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/clnz4.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 精品男装 -->
+		<div class="yt-wrap yt_floor_nz yt_floor_item">
+			<div class="floor_title">
+				<a href="#">
+					<h6></h6>
+				</a>
+			</div>
+			<div class="floor_nav">
+				<ul class="floor_nav_category">
+						<li><a href="">外套</a></li>
+						<li><a href="">T恤</a></li>
+						<li><a href="">衬衫</a></li>
+						<li><a href="">毛衣</a></li>
+						<li><a href="">卫衣</a></li>
+						<li><a href="">休闲服</a></li>
+						<li><a href="">针织衫</a></li>
+						<li><a href="">夹克</a></li>
+						<li><a href="">牛仔裤</a></li>
+						<li><a href="">休闲裤</a></li>
+						<li><a href="">时尚潮搭</a></li>
+						<li><a href="">大衣</a></li>
+				</ul>
+				<div class="floorbarndSlide">
+					<div class="scroller">
+						<div class="eva-switchable-panels">
+							<!-- 商家logo标志轮播 1-->
+							<!-- <div id=" " style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa1.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa2.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa3.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa4.jpg" alt=""></a>
+							</div> -->
+							<!-- 商家logo标志轮播 2-->
+							<!-- <div style="display:blok;float:left;">
+								<a href="#"><img src="./img/logoa21.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa22.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa23.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa24.jpg" alt=""></a>
+							</div> -->
+							<!-- 商家logo标志轮播 3-->
+							<div style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa31.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa32a.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa33.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa34.jpg" alt=""></a>
+							</div>
+					
+						</div>
+					</div>
+					<a href="" class="eva-switchable-prev"></a>
+					<a href="" class="eva-switchable-next"></a>
+				</div>
+			</div>
+			<div class="floor_slide">
+				<!-- 轮播图 -->
+				<div class="floor_banner_slide">
+					<div class="floor_b_pannels">
+						<div class="eva-switchable-panels" style="overflow:visible;position: absolute;width: 1560px;left:0px">
+							<a href="" style="display:block;float:left"><img src="./img/jpnzbanner.jpg" alt=""></a>
+							<!-- <a href="" style="display:block;float:left"><img src="./img/0479d2f0-90ca-4357-8ce6-0a04f122cca9.jpg" alt=""></a> -->
+						</div>
+					</div>
+					<!-- <ul class="floor_slide_trigger">
+						<li class="eva-switchable-active"></li>
+						<li></li>
+					</ul>
+					<a href="" style="left:0" class="eva-switchable-prev eva-switchable-disable-btn"></a>
+					<a href="" style="right:0" class="eva-switchable-next eva-switchable-disable-btn1"></a> -->
+				</div>
+				<!-- ******************************* -->
+			</div>
+			<div class="floor_banner">
+				<div class="floor_banner_main">
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/jpnz1.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/jpnz2.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/jpnz3.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/jpnz4.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 时尚鞋靴 -->
+		<div class="yt-wrap yt_floor_xx yt_floor_item">
+			<div class="floor_title">
+				<a href="#">
+					<h6></h6>
+				</a>
+			</div>
+			<div class="floor_nav">
+				<ul class="floor_nav_category">
+						<li><a href="">女鞋</a></li>
+						<li><a href="">男鞋</a></li>
+						<li><a href="">乐福鞋</a></li>
+						<li><a href="">女式凉鞋</a></li>
+						<li><a href="">休闲鞋</a></li>
+						<li><a href="">商务鞋</a></li>
+						<li><a href="">高跟鞋</a></li>
+						<li><a href="">平底鞋</a></li>
+						<li><a href="">坡跟鞋</a></li>
+						<li><a href="">尖头鞋</a></li>
+						<li><a href="">鱼嘴鞋</a></li>
+						<li><a href="">豆豆鞋</a></li>
+				</ul>
+				<div class="floorbarndSlide">
+					<div class="scroller">
+						<div class="eva-switchable-panels">
+							<!-- 商家logo标志轮播 1-->
+							<!-- <div id=" " style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa1.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa2.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa3.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa4.jpg" alt=""></a>
+							</div> -->
+							<!-- 商家logo标志轮播 2-->
+							<div style="display:blok;float:left;">
+								<a href="#"><img src="./img/logoa21.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa22.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa23.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa24.jpg" alt=""></a>
+							</div>
+							<!-- 商家logo标志轮播 3-->
+							<div style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa31.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa32a.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa33.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa34.jpg" alt=""></a>
+							</div>
+					
+						</div>
+					</div>
+					<a href="" class="eva-switchable-prev"></a>
+					<a href="" class="eva-switchable-next"></a>
+				</div>
+			</div>
+			<div class="floor_slide">
+				<!-- 轮播图 -->
+				<div class="floor_banner_slide">
+					<div class="floor_b_pannels">
+						<div class="eva-switchable-panels" style="overflow:visible;position: absolute;width: 1560px;left:0px">
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/ssxxbanner1.jpg" alt=""></a>
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/ssxxbanner2.jpg" alt=""></a>
+						</div>
+					</div>
+					<ul class="floor_slide_trigger">
+						<li class="eva-switchable-active"></li>
+						<li></li>
+					</ul>
+					<a href="javascript:;" style="left:0" class="eva-switchable-prev eva-switchable-disable-btn"></a>
+					<a href="javascript:;" style="right:0" class="eva-switchable-next eva-switchable-disable-btn1"></a>
+				</div>
+				<!-- ******************************* -->
+			</div>
+			<div class="floor_banner">
+				<div class="floor_banner_main">
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/ssxx1.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/ssxx2.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/ssxx3.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/ssxx4.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 潮流箱包 -->
+		<div class="yt-wrap yt_floor_xb yt_floor_item">
+			<div class="floor_title">
+				<a href="#">
+					<h6></h6>
+				</a>
+			</div>
+			<div class="floor_nav">
+				<ul class="floor_nav_category">
+						<li><a href="">女士单肩</a></li>
+						<li><a href="">女士斜挎</a></li>
+						<li><a href="">女士双肩</a></li>
+						<li><a href="">女士钱包</a></li>
+						<li><a href="">女士多种</a></li>
+						<li><a href="">女士手提</a></li>
+						<li><a href="">男士单肩</a></li>
+						<li><a href="">男士手提</a></li>
+						<li><a href="">男士钱包</a></li>
+						<li><a href="">男士腰带</a></li>
+						<li><a href="">旅行双肩</a></li>
+						<li><a href="">旅行箱</a></li>
+				</ul>
+				<div class="floorbarndSlide">
+					<div class="scroller">
+						<div class="eva-switchable-panels">
+							<!-- 商家logo标志轮播 1-->
+							<!-- <div id=" " style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa1.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa2.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa3.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa4.jpg" alt=""></a>
+							</div> -->
+							<!-- 商家logo标志轮播 2-->
+							<div style="display:blok;float:left;">
+								<a href="#"><img src="./img/logoa21.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa22.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa23.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa24.jpg" alt=""></a>
+							</div>
+							<!-- 商家logo标志轮播 3-->
+							<div style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa31.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa32a.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa33.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa34.jpg" alt=""></a>
+							</div>
+					
+						</div>
+					</div>
+					<a href="" class="eva-switchable-prev"></a>
+					<a href="" class="eva-switchable-next"></a>
+				</div>
+			</div>
+			<div class="floor_slide">
+				<!-- 轮播图 -->
+				<div class="floor_banner_slide">
+					<div class="floor_b_pannels">
+						<div class="eva-switchable-panels" style="overflow:visible;position: absolute;width: 1560px;left:0px">
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/clxbbanner1.jpg" alt=""></a>
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/clxbbanner2.jpg" alt=""></a>
+						</div>
+					</div>
+					<ul class="floor_slide_trigger">
+						<li class="eva-switchable-active"></li>
+						<li></li>
+					</ul>
+					<a href="javascript:;" style="left:0" class="eva-switchable-prev eva-switchable-disable-btn"></a>
+					<a href="javascript:;" style="right:0" class="eva-switchable-next eva-switchable-disable-btn1"></a>
+				</div>
+				<!-- ******************************* -->
+			</div>
+			<div class="floor_banner">
+				<div class="floor_banner_main">
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/clxb1.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/clxb2.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/clxb3.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/clxb4.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 美容护肤 -->
+		<div class="yt-wrap yt_floor_hf yt_floor_item">
+			<div class="floor_title">
+				<a href="#">
+					<h6></h6>
+				</a>
+			</div>
+			<div class="floor_nav">
+				<ul class="floor_nav_category">
+						<li><a href="">面膜</a></li>
+						<li><a href="">护肤套账</a></li>
+						<li><a href="">乳液</a></li>
+						<li><a href="">精华液</a></li>
+						<li><a href="">护手霜</a></li>
+						<li><a href="">爽肤水</a></li>
+						<li><a href="">洁面</a></li>
+						<li><a href="">眼霜</a></li>
+						<li><a href="">身体护理</a></li>
+						<li><a href="">BB霜</a></li>
+						<li><a href="">男士护理</a></li>
+						<li><a href="">女士香水</a></li>
+				</ul>
+				<div class="floorbarndSlide">
+					<div class="scroller">
+						<div class="eva-switchable-panels">
+							<!-- 商家logo标志轮播 1-->
+							<!-- <div id=" " style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa1.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa2.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa3.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa4.jpg" alt=""></a>
+							</div> -->
+							<!-- 商家logo标志轮播 2-->
+							<div style="display:blok;float:left;">
+								<a href="#"><img src="./img/logoa21.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa22.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa23.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa24.jpg" alt=""></a>
+							</div>
+							<!-- 商家logo标志轮播 3-->
+							<div style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa31.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa32a.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa33.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa34.jpg" alt=""></a>
+							</div>
+					
+						</div>
+					</div>
+					<a href="" class="eva-switchable-prev"></a>
+					<a href="" class="eva-switchable-next"></a>
+				</div>
+			</div>
+			<div class="floor_slide">
+				<!-- 轮播图 -->
+				<div class="floor_banner_slide">
+					<div class="floor_b_pannels">
+						<div class="eva-switchable-panels" style="overflow:visible;position: absolute;width: 1560px;left:0px">
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/mrffbanner1.jpg" alt=""></a>
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/mrffbanner2.jpg" alt=""></a>
+						</div>
+					</div>
+					<ul class="floor_slide_trigger">
+						<li class="eva-switchable-active"></li>
+						<li></li>
+					</ul>
+					<a href="javascript:;" style="left:0" class="eva-switchable-prev eva-switchable-disable-btn"></a>
+					<a href="javascript:;" style="right:0" class="eva-switchable-next eva-switchable-disable-btn1"></a>
+				</div>
+				<!-- ******************************* -->
+			</div>
+			<div class="floor_banner">
+				<div class="floor_banner_main">
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/mrff1.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/mrff2.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/mrff3.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/mrff4.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 运动户外 -->
+		<div class="yt-wrap yt_floor_hw yt_floor_item">
+			<div class="floor_title">
+				<a href="#">
+					<h6></h6>
+				</a>
+			</div>
+			<div class="floor_nav">
+				<ul class="floor_nav_category">
+						<li><a href="">短袖T恤</a></li>
+						<li><a href="">POLO衫</a></li>
+						<li><a href="">短裤</a></li>
+						<li><a href="">运动裤</a></li>
+						<li><a href="">泳衣</a></li>
+						<li><a href="">凉鞋拖鞋</a></li>
+						<li><a href="">复古鞋</a></li>
+						<li><a href="">帆布鞋</a></li>
+						<li><a href="">跑步鞋</a></li>
+						<li><a href="">篮球鞋</a></li>
+						<li><a href="">运动箱包</a></li>
+						<li><a href="">户外装备</a></li>
+				</ul>
+				<div class="floorbarndSlide">
+					<div class="scroller">
+						<div class="eva-switchable-panels">
+							<!-- 商家logo标志轮播 1-->
+							<!-- <div id=" " style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa1.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa2.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa3.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa4.jpg" alt=""></a>
+							</div> -->
+							<!-- 商家logo标志轮播 2-->
+							<div style="display:blok;float:left;">
+								<a href="#"><img src="./img/logoa21.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa22.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa23.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa24.jpg" alt=""></a>
+							</div>
+							<!-- 商家logo标志轮播 3-->
+							<div style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa31.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa32a.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa33.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa34.jpg" alt=""></a>
+							</div>
+					
+						</div>
+					</div>
+					<a href="" class="eva-switchable-prev"></a>
+					<a href="" class="eva-switchable-next"></a>
+				</div>
+			</div>
+			<div class="floor_slide">
+				<!-- 轮播图 -->
+				<div class="floor_banner_slide">
+					<div class="floor_b_pannels">
+						<div class="eva-switchable-panels" style="overflow:visible;position: absolute;width: 1560px;left:0px">
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/ydhwbanner1.jpg" alt=""></a>
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/ydhwbanner2.jpg" alt=""></a>
+						</div>
+					</div>
+					<ul class="floor_slide_trigger">
+						<li class="eva-switchable-active"></li>
+						<li></li>
+					</ul>
+					<a href="javascript:;" style="left:0" class="eva-switchable-prev eva-switchable-disable-btn"></a>
+					<a href="javascript:;" style="right:0" class="eva-switchable-next eva-switchable-disable-btn1"></a>
+				</div>
+				<!-- ******************************* -->
+			</div>
+			<div class="floor_banner">
+				<div class="floor_banner_main">
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/ydhw1.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/ydhw2.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/ydhw3.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/ydhw4.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 内衣配饰 -->
+		<div class="yt-wrap yt_floor_ps yt_floor_item">
+			<div class="floor_title">
+				<a href="#">
+					<h6></h6>
+				</a>
+			</div>
+			<div class="floor_nav">
+				<ul class="floor_nav_category">
+						<li><a href="">文胸</a></li>
+						<li><a href="">底裤</a></li>
+						<li><a href="">家居服</a></li>
+						<li><a href="">保暖</a></li>
+						<li><a href="">塑身</a></li>
+						<li><a href="">袜品</a></li>
+						<li><a href="">黄金</a></li>
+						<li><a href="">翡翠玉石</a></li>
+						<li><a href="">珍珠</a></li>
+						<li><a href="">砖石</a></li>
+						<li><a href="">男士手表</a></li>
+						<li><a href="">太阳镜</a></li>
+				</ul>
+				<div class="floorbarndSlide">
+					<div class="scroller">
+						<div class="eva-switchable-panels">
+							<!-- 商家logo标志轮播 1-->
+							<!-- <div id=" " style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa1.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa2.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa3.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa4.jpg" alt=""></a>
+							</div> -->
+							<!-- 商家logo标志轮播 2-->
+							<div style="display:blok;float:left;">
+								<a href="#"><img src="./img/logoa21.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa22.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa23.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa24.jpg" alt=""></a>
+							</div>
+							<!-- 商家logo标志轮播 3-->
+							<div style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa31.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa32a.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa33.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa34.jpg" alt=""></a>
+							</div>
+					
+						</div>
+					</div>
+					<a href="javascript:;" class="eva-switchable-prev"></a>
+					<a href="javascript:;" class="eva-switchable-next"></a>
+				</div>
+			</div>
+			<div class="floor_slide">
+				<!-- 轮播图 -->
+				<div class="floor_banner_slide">
+					<div class="floor_b_pannels">
+						<div class="eva-switchable-panels" style="overflow:visible;position: absolute;width: 1560px;left:0px">
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/nypsbanner1.jpg" alt=""></a>
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/nypsbanner2.jpg" alt=""></a>
+						</div>
+					</div>
+					<ul class="floor_slide_trigger">
+						<li class="eva-switchable-active"></li>
+						<li></li>
+					</ul>
+					<a href="javascript:;" style="left:0" class="eva-switchable-prev eva-switchable-disable-btn"></a>
+					<a href="javascript:;" style="right:0" class="eva-switchable-next eva-switchable-disable-btn1"></a>
+				</div>
+				<!-- ******************************* -->
+			</div>
+			<div class="floor_banner">
+				<div class="floor_banner_main">
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/nyps1.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/nyps2.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/nyps3.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/nyps4.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 婴童家具 -->
+		<div class="yt-wrap yt_floor_ty yt_floor_item">
+			<div class="floor_title">
+				<a href="#">
+					<h6></h6>
+				</a>
+			</div>
+			<div class="floor_nav">
+				<ul class="floor_nav_category">
+						<li><a href="">T恤</a></li>
+						<li><a href="">四件套</a></li>
+						<li><a href="">学与玩</a></li>
+						<li><a href="">尿裤湿巾</a></li>
+						<li><a href="">童鞋</a></li>
+						<li><a href="">衬衫</a></li>
+						<li><a href="">寝具礼盒</a></li>
+						<li><a href="">喂养用品</a></li>
+						<li><a href="">休闲裤</a></li>
+						<li><a href="">婴幼套装</a></li>
+						<li><a href="">孕产妇</a></li>
+						<li><a href="">收纳用品</a></li>
+				</ul>
+				<div class="floorbarndSlide">
+					<div class="scroller">
+						<div class="eva-switchable-panels">
+							<!-- 商家logo标志轮播 1-->
+							<!-- <div id=" " style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa1.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa2.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa3.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa4.jpg" alt=""></a>
+							</div> -->
+							<!-- 商家logo标志轮播 2-->
+							<div style="display:blok;float:left;">
+								<a href="#"><img src="./img/logoa21.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa22.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa23.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa24.jpg" alt=""></a>
+							</div>
+							<!-- 商家logo标志轮播 3-->
+							<div style="display:block;float:left;">
+								<a href="#"><img src="./img/logoa31.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa32a.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa33.jpg" alt=""></a>
+								<a href="#"><img src="./img/logoa34.jpg" alt=""></a>
+							</div>
+					
+						</div>
+					</div>
+					<a href="javascript:;" class="eva-switchable-prev"></a>
+					<a href="javascript:;" class="eva-switchable-next"></a>
+				</div>
+			</div>
+			<div class="floor_slide">
+				<!-- 轮播图 -->
+				<div class="floor_banner_slide">
+					<div class="floor_b_pannels">
+						<div class="eva-switchable-panels" style="overflow:visible;position: absolute;width: 1560px;left:0px">
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/ytjgbanner1.jpg" alt=""></a>
+							<a href="javascript:;" style="display:block;float:left"><img src="./img/ytjgbanner2.jpg" alt=""></a>
+						</div>
+					</div>
+					<ul class="floor_slide_trigger">
+						<li class="eva-switchable-active"></li>
+						<li></li>
+					</ul>
+					<a href="javascript:;" style="left:0" class="eva-switchable-prev eva-switchable-disable-btn"></a>
+					<a href="javascript:;" style="right:0" class="eva-switchable-next eva-switchable-disable-btn1"></a>
+				</div>
+				<!-- ******************************* -->
+			</div>
+			<div class="floor_banner">
+				<div class="floor_banner_main">
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/ytjg1.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/ytjg2.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/ytjg3.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="product_block">
+						<div class="border_animation">
+							<div class="border border_top"></div>
+							<div class="border border_right"></div>
+							<div class="border border_bottom"></div>
+							<div class="border border_left"></div>
+							<div class="img_wrap">
+								<a href="#">
+									<img src="./img/ytjg4.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 3个链接图片 -->
+		<div class="yt-wrap yt_card">
+			<div class="public-one">
+				<a href="#"><img src="./img/f11.jpg" alt=""></a>
+			</div>
+			<div class="public-two">
+				<a href="#"><img src="./img/f12.jpg" alt=""></a>
+			</div>
+			<div class="public-san">
+				<a href="#"><img src="./img/f13.jpg" alt=""></a>
+			</div>
+		</div>
+		<!-- 图片链接 -->
+		<div class="yt-wrap">
+			<a href="#">
+				<img src="./img/phone-ft-banner.jpg" alt="">
+			</a>
+		</div>
+
+</div>
+<!-- 底部 -->
+<div id="ft">
+	<!-- 底部一 -->
+	<div class="yt-wrap itips">
+		<div class="service">
+			<strong>400-119-111</strong>
+			<i>8:00--24:00</i>
+			<b>service@yintai.com</b>
+		</div>
+		<div class="delivery">
+			<strong>
+				<i>15天</i>
+				无忧退换货
+			</strong>
+			<b>为你提供优质售后服务</b>
+		</div>
+		<div class="genuine">
+			<strong>
+				<i>100%</i>
+				正品保障
+			</strong>
+			<b>品质护航，购物无忧</b>		
+		</div>
+		<div class="freight">
+			<strong>
+				<i>满199元</i>
+				免运费
+			</strong>
+			<b>为您提供便利物流</b>	
+		</div>
+	</div>
+	<!-- 底部二 -->
+	<div class="yt-wrap ilinks">
+		<a href="">关于银泰</a>|
+		<a href="">帮助中心</a>|
+		<a href="">退换货政策</a>|
+		<a href="">网站地址</a>|
+		<a href="">代理合作</a>|
+		<a href="">品牌招商</a>|
+		<a href="">商务合作</a>|
+		<a href="">网站联盟</a>|
+		<a href="">联系我们</a>|
+		<a href="">加入银泰</a>|
+		<a href="">版权声明</a>|
+		<a href="">法律声明</a>
+	</div>
+	<!-- 底部三 -->
+	<div class="yt-wrap copyright">
+		<p>
+			<a href="">浙ICP备10200233号</a>
+			<a href="">京公网安备110105019085</a>
+			<a href="">整治电信业务经营许可证：浙B2-2-110005</a>
+		</p>
+		<p>Yintal&copy;2015,银泰电子商务有限公司</p>
+	</div>
+	<!-- 底部四 -->
+	<div class="yt-wrap all-mark">
+		<a href=""><img src="./img/top1.png" alt="" class="m-integrity"></a>
+		<a href=""><img src="./img/top2.png" alt="" class="cnnic"></a>
+		<a href=""><img src="./img/top3.gif" alt="" class="commerce"></a>
+	</div>
+</div>
+<!-- 楼层跳转按钮 -->
+<div class="storey">
+	<div class="itembox" >
+		<a href="#" class="item1" id="item">时尚名品</a>
+	</div>
+	<div class="itembox">
+		<a href="#" class="item2">潮流女装</a>
+	</div>
+	<div class="itembox">
+		<a href="#" class="item3">精品男装</a>
+	</div>
+	<div class="itembox">
+		<a href="#" class="item4">时尚鞋靴</a>
+	</div>
+	<div class="itembox">
+		<a href="#" class="item5">潮流箱包</a>
+	</div>
+	<div class="itembox">
+		<a href="#" class="item6">美容护肤</a>
+	</div>
+	<div class="itembox">
+		<a href="#" class="item7">运动户外</a>
+	</div>
+	<div class="itembox">
+		<a href="#" class="item8">内衣配饰</a>
+	</div>
+	<div class="itembox">
+		<a href="#" class="item9">婴童家居</a>
+	</div>
+	<div class="itembox">
+		<a href="#" class="item10">返回顶部</a>
+	</div>
+</div>
+
+
+
+</div>
+</body>
+</html>
